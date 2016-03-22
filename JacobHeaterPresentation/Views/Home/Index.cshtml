@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Welcome to JacobHeater.com!";
+}
+
+
+<div class="home-page">
+    <div class="content">
+        <div ng-view ng-cloak></div>
+    </div>
+</div>
+<script>
+    require.jacobheater.dependencies.push('jacobheater.master.controller');
+    require.jacobheater.dependencies.push('jacobheater.home.controller');
+</script>
