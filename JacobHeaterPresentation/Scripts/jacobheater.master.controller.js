@@ -17,6 +17,9 @@
                 }, {
                     path: '#/Portfolio',
                     text: 'Portfolio'
+                }, {
+                    path: '#/About',
+                    text: 'About'
                 }
             ],
             buttonSpeed: 'fast',

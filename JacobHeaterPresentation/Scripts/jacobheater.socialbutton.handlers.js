@@ -19,20 +19,20 @@
 						complete: function () {
 							$this.css('position', 'initial');
 						}
-					});
+					}, 'fast');
 				});
 			} else {
 				//It's closed, we need to open it.
 				$this.addClass('active').css({
 					position: 'relative'
 				}).stop().animate({
-					bottom: 170
+					bottom: 70
 				}, {
 					complete: function () {
 						$this.css('position', 'initial');
 						btnsContainer.stop().fadeIn();
 					}
-				});
+				}, 'fast');
 			}
 		});
 	}

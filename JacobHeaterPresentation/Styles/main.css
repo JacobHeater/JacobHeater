@@ -11,10 +11,19 @@ body {
 
 
 /*Classes*/
+.cursive {
+    font-family: 'Pacifico', cursive;
+    color: black;
+    text-shadow: 0 0 1px black;
+}
+
+.soft-text {
+    text-shadow: 0 0 1px;
+}
+
 .header-content {
     height: 130px;
     padding-top: 15px;
-    padding-right: 50px;
     background-color: #325dc6;
     border-bottom: 1px solid #182b5b;
     z-index: 3;
@@ -31,9 +40,10 @@ body {
     }
 
     .header-content .header-logo {
-        text-align: right;
         color: white;
         cursor: default;
+        position: fixed;
+        right: 15px;
     }
 
         .header-content .header-logo h1 {
@@ -57,9 +67,9 @@ body {
 }
 
 .header-stack-1 {
-    background-color: #4828A0;
+    background-color: #454545;
     height: 170px;
-    border: 1px solid #3e228b;
+    border: 1px solid #303030;
     z-index: 1;
 }
 
@@ -115,15 +125,10 @@ body {
     .social-buttons {
         display: none;
         background-color: rgba(0, 0, 0, 0.3);
-        box-shadow: 0 0 10px 1px #a4a4a4;
+        box-shadow: 0 0 10px 1px black;
         border-radius: 6px;
         padding: 5px 6px;
         overflow: hidden;
-    }
-
-    .social-button {
-        display: block;
-        text-align: right;
     }
 
     .social-button-mobile {
@@ -154,4 +159,31 @@ body {
     }
 }
 
+/*Tablet Portrait*/
+@media only screen and (min-device-width : 700px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .header-content .header-logo {
+        display: none;
+    }
+
+    .main-content {
+        width: 70%;
+    }
+}
+
+
+
 /*Mobile Landscape*/
+/*Tablet Landscape*/
+@media only screen and (min-device-width : 700px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .header-content .header-logo {
+        display: none;
+    }
+
+    .main-content {
+        width: 70%;
+    }
+
+    .main-content {
+        width: 70%;
+    }
+}
