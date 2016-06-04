@@ -1,0 +1,30 @@
+{
+  "name": "jacobheater",
+  "version": "0.0.1",
+  "description": "Jacob Heater's personal web site.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobHeater/JacobHeater.git"
+  },
+  "keywords": [
+    "Jacob",
+    "Heater",
+    "Programming",
+    "Blog",
+    "muvJS"
+  ],
+  "author": "Jacob Heater",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacobHeater/JacobHeater/issues"
+  },
+  "homepage": "https://github.com/JacobHeater/JacobHeater#readme",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}

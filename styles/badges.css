@@ -1,0 +1,20 @@
+.badges {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 500px;
+  text-align: right;
+}
+
+.badges .badge {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.badges .badge img {
+  width: 50px;
+}
+
+.badges .badge img.big {
+  width: 100px;
+}

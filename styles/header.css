@@ -1,0 +1,40 @@
+.header {
+  background-color: #2C71D1;
+  padding: 15px 0;
+  box-shadow: 0 0 15px 1px black;
+}
+
+.header .nav {
+  color: white;
+  padding: 0 5px;
+}
+
+.header .nav .nav-list {
+  padding: 0;
+}
+
+.header .nav .nav-list li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.header .nav .nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header .nav .nav-list li:hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.header .nav .nav-list li:active {
+  text-shadow: 1px 1px 3px black;
+}

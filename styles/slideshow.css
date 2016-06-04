@@ -1,0 +1,21 @@
+.slideshow-wrapper {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.slideshow-wrapper .slide img {
+  border: 1px solid rgb(150, 150, 150);
+  box-shadow: 0 0 10px 1px black;
+}
+
+.slideshow-wrapper .slide .caption {
+  position: relative;
+  bottom: 65px;
+  padding: 20px 0;
+  border-radius: 6px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 250px;
+  display: inline-block;
+  margin: 0 auto;
+}

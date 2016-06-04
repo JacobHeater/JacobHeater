@@ -1,0 +1,12 @@
+html {
+  font-family: 'Ubuntu', Arial, Calibri, sans-serif;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.app .page {
+  padding: 0 15px;
+}
