@@ -1,11 +1,11 @@
 <div class="header">
     <div class="nav">
-        <ul class="nav-list">
+        <ul class="nav-list" style="display: none;">
             <li>
                 <a href="#/pages/home">Home</a>
             </li>
             <li>
-                <a href="#/pages/blog">Blog</a>
+                <a href="#/pages/articles">Blog</a>
             </li>
             <li>
                 <a href="#/pages/portfolio">Portfolio</a>
@@ -19,3 +19,14 @@
         </ul>
     </div>
 </div>
+<script>
+    require(["jquery"], function($) {
+        require(["slickNav"], function() {
+            $(function() {
+                $(".nav-list").slicknav({
+                    label: ""
+                });
+            });
+        });
+    });
+</script>

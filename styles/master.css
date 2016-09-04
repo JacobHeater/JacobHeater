@@ -1,5 +1,10 @@
 html {
-  font-family: 'Ubuntu', Arial, Calibri, sans-serif;
+  font-family: 'Open Sans', Arial, Calibri, sans-serif;
+  background-color: rgb(40, 40, 40);
+  background-image: url('../resources/images/pw_maze_black.png');
+  background-repeat: repeat;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 1px;
 }
 
 html, body {
@@ -8,5 +13,17 @@ html, body {
 }
 
 .app .page {
-  padding: 0 15px;
+  padding: 10px 30px;
+}
+
+.heading-lg {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.hr {
+  height: 2px;
+  background-color: white;
+  margin: 10px 0;
+  box-shadow: 0 0 5px white;
 }

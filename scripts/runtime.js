@@ -1,8 +1,5 @@
-define([
-  'muv.core'
-], function(muv) {
-  muv.init([
-    '../modules/slideshow',
-    '../controllers/slideshow'
+define(function() {
+  require([
+    "./scripts/app"
   ]);
 });

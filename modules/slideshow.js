@@ -1,5 +1,6 @@
-define([
-  '../scripts/app'
-], function(app) {
-  return app.module('slideshow');
+define(function() {
+  function createSlideShowModule(app) {
+    return app.module('slideshow');
+  }
+  return createSlideShowModule;
 })

@@ -1,0 +1,21 @@
+.about {
+    width: 100%;
+}
+
+.about .portrait {
+    width: 35%;
+    float: left;
+}
+
+.about .portrait img {
+    width: 100%;
+}
+
+.about .bio {
+    float: right;
+    width: 63%;
+}
+
+.about .bio .bio-content .para {
+    margin: 10px 0;
+}
